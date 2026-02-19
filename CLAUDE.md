@@ -8,7 +8,7 @@ Refer to [README.md](README.md) for project objectives, requirements, and docume
 
 ## generating Markdown Files
 
-- please avoid bold and italics in generated Markdown files, as they can cause rendering issues in some environments
+- please avoid bold and italics in generated Markdown files
 
 ## Development Guidelines
 
