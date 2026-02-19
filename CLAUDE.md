@@ -18,10 +18,19 @@ Refer to [README.md](README.md) for project objectives, requirements, and docume
 
 ## Git Workflow
 
+### Before Commiting
+
 - Run `uv run python -m pytest` and ensure all tests pass before committing
+- Review staged changes with `git diff --staged` before committing
+- Review README.md and update if necessary to reflect any new features or changes
+
+### Commiting
+
 - Write clean, readable commit messages:
   - Use imperative mood (e.g. "Add feature" not "Added feature")
   - Keep the subject line concise (50 chars or less)
   - Add a body if more context is needed, separated by a blank line
-- Review staged changes with `git diff --staged` before committing
+
+### Pushing
+
 - Do not push to remote until all tests pass locally
